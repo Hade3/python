@@ -71,7 +71,7 @@ def takeInput(x):
 def deleteInput():
     if len(playerPhrase) >= 1:
         playerPhrase.pop(len(playerPhrase) - 1)
-        playerPhraseLabel[len(playerPhrase) - 1].setParent(None)
+        playerPhraseLabel[len(playerPhrase)].setParent(None)
 
 # comfirm try
 comfirmedPhrasesLayout = QVBoxLayout()
